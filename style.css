@@ -1,0 +1,68 @@
+h1 {
+    color: white;
+    margin-left: 30px;
+    padding:3px ;
+}
+ 
+
+h2{
+    color:rgb(147, 255, 232)
+}
+ 
+/*h4{
+    colour:rgb(173, 86, 15)
+}*/
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-right: 30px;
+}
+
+.grid *{
+    border: solid;
+    margin: 30px;
+    border-color: white;
+    background-color: white;
+}
+
+
+.header *{
+    border: solid;
+    justify-content: space-between;
+}
+
+
+.grid{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+*
+{ background-color : #a39dff; }
+
+
+
+
+.item{
+    position:relative;
+}
+
+.item p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity:0.33;
+}
